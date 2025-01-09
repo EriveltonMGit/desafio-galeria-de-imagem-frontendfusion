@@ -1,13 +1,13 @@
 
 import './App.css'
+import Gallery from './Templates/Gallery/page';
 
 function App() {
 
   return (
     <>
-      <main>
-        <h1>Seja bem vindo! :)</h1>
-        <p>Desafio de Galeria de Imagens - Processo Seletivo Frontend Fusion</p>
+      <main className='w-screen h-screen '>
+       <Gallery/>
       </main>
     </>
   );

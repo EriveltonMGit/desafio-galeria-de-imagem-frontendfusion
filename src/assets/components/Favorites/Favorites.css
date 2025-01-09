@@ -1,0 +1,56 @@
+
+
+/* favorites-container */
+.favorites-container{
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    
+
+    h2{
+        font-size: 22px;
+        height: 10%;
+        font-size: 28px;
+        position: absolute;
+        top: 0;
+        margin-top: 2%;
+        margin-left: 2%;
+        font-family:Proelium;
+        display: flex;
+        gap:2px;
+    }
+}
+
+/* gallery-grid */
+.gallery-grid_fav{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    margin-top: 10%;
+    gap: 2%;
+    gap: 2vh;
+    padding-bottom: 5vh;
+    
+}
+
+/* item_img */
+.gallery-item_img{
+   max-width: 250px;
+    gap: 2vh;
+}
