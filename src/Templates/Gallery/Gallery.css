@@ -12,6 +12,8 @@ h1{
   margin-top: 2%;
   margin-left: 2%;
   font-family:Proelium;
+  display: flex;
+  gap:2vw;
 }
   }
   
@@ -55,3 +57,324 @@ h1{
   }
   
   
+
+
+  /* ====================MEDIA SCREE ================== */
+
+  @media (min-width: 768px) and (max-width: 1920px) and (orientation: landscape){
+    .gallery-container {
+      padding: 5px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+  h1{
+    font-size: 36px;
+    position: absolute;
+    top: 0;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-family:Proelium;
+    display: flex;
+    gap:2vw;
+  }
+    }
+    
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 16px;
+      width: 48%;
+      margin-left: 2%;
+    }
+    
+    .gallery-item {
+      position: relative;
+      
+    }
+    
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      cursor: pointer;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .favorite-btn {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      padding: 5px 10px;
+      background: #ffffff90;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    .favorite-btn.active {
+      background: #ffcc00;
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 1023px) and (orientation: portrait){
+    .gallery-container {
+      padding: 5px;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     
+      
+  h1{
+    font-size: 36px;
+    position: absolute;
+    top: 0;
+    margin-top: 6vh;
+    margin-left: 2%;
+    font-family:Proelium;
+    display: flex;
+    gap:2vw;
+  }
+    }
+    
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      width:90%;
+      position: absolute;
+      top: 0;
+      margin-top: 15vh;
+    }
+    
+    .gallery-item {
+      position: relative;
+      
+    }
+    
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      cursor: pointer;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .favorite-btn {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      padding: 5px 10px;
+      background: #ffffff90;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    .favorite-btn.active {
+      background: #ffcc00;
+    }
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait){
+
+    .gallery-container {
+      padding: 5px;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     
+      
+  h1{
+    font-size: 36px;
+    position: absolute;
+    top: 0;
+    margin-top: 6vh;
+    margin-left: 2%;
+    font-family:Proelium;
+    display: flex;
+    gap:2vw;
+  }
+    }
+    
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      width:90%;
+      position: absolute;
+      top: 0;
+      margin-top: 15vh;
+    }
+    
+    .gallery-item {
+      position: relative;
+      
+    }
+    
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      cursor: pointer;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .favorite-btn {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      padding: 5px 10px;
+      background: #ffffff90;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    .favorite-btn.active {
+      background: #ffcc00;
+    }
+  }
+  @media (max-width: 480px){
+    .gallery-container {
+      padding: 5px;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     
+      
+  h1{
+    font-size: 36px;
+    position: absolute;
+    top: 0;
+    margin-top: 6vh;
+    margin-left: 2%;
+    font-family:Proelium;
+    display: flex;
+    gap:2vw;
+  }
+    }
+    
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 16px;
+      width:90%;
+      position: absolute;
+      top: 0;
+      margin-top: 15vh;
+    }
+    
+    .gallery-item {
+      position: relative;
+      
+    }
+    
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      cursor: pointer;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .favorite-btn {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      padding: 5px 10px;
+      background: #ffffff90;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    .favorite-btn.active {
+      background: #ffcc00;
+    }
+  }
+  @media (max-width: 320px) {
+    .gallery-container {
+      padding: 5px;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     
+      
+  h1{
+    font-size: 32px;
+    position: absolute;
+    top: 0;
+    margin-top: 6vh;
+    margin-left: 2%;
+    font-family:Proelium;
+    display: flex;
+    gap:2vw;
+  }
+    }
+    
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 16px;
+      width:90%;
+      position: absolute;
+      top: 0;
+      margin-top: 20vh;
+    }
+    
+    .gallery-item {
+      position: relative;
+      
+    }
+    
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      cursor: pointer;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .favorite-btn {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      padding: 5px 10px;
+      background: #ffffff90;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    .favorite-btn.active {
+      background: #ffcc00;
+    }
+    
+  }
